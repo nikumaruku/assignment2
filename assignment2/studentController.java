@@ -25,7 +25,7 @@ public class studentController {
 			
 			String connectionURL = "jdbc:mysql://localhost:3306/db1?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&allowPublicKeyRetrieval=TRUE&useSSL=FALSE";
 			
-			conn = DriverManager.getConnection(connectionURL, "root", "Nik.syahmi21");
+			conn = DriverManager.getConnection(connectionURL, "root", "Nikumaruku21");
 			
 			// create a Statement from the connection
 			Statement statement = conn.createStatement();
@@ -69,7 +69,7 @@ public class studentController {
 			
 			String connectionURL = "jdbc:mysql://localhost:3306/db1?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&allowPublicKeyRetrieval=TRUE&useSSL=FALSE";
 			
-			conn = DriverManager.getConnection(connectionURL, "root", "Nik.syahmi21");
+			conn = DriverManager.getConnection(connectionURL, "root", "Nikumaruku21");
 			
 			// create a Statement from the connection
 			Statement statement = conn.createStatement();
